@@ -3,10 +3,10 @@ Description=Gunicorn Flask App
 After=network.target
 
 [Service]
-User=ubuntu
-WorkingDirectory=/home/ubuntu/flask-portfolio/app
-Environment="PATH=/home/ubuntu/flask-portfolio/app/venv/bin"
-ExecStart=/home/ubuntu/flask-portfolio/app/venv/bin/gunicorn --workers 2 --bind 0.0.0.0:5000 app:app
+User=test01
+WorkingDirectory=/home/test01/flask-portfolio/app
+Environment="PATH=/home/test01/flask-portfolio/app/venv/bin"
+ExecStart=/home/test01/flask-portfolio/app/venv/bin/gunicorn --workers 2 --bind 0.0.0.0:5000 app:app
 
 [Install]
 WantedBy=multi-user.target

@@ -1,5 +1,4 @@
 # Flask Portfolio Project
-# Flask Portfolio Project
 
 Simple Flask app served by Gunicorn and managed by systemd.
 
@@ -14,3 +13,4 @@ python app.py
 sudo cp systemd/flask-app.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable --now flask-app
+
