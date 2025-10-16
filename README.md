@@ -1,4 +1,4 @@
-# Flask Portfolio Project
+# Flask Project
 
 Simple Flask app served by Gunicorn and managed by systemd.
 
